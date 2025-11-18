@@ -1,0 +1,35 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.so
+*.egg-info/
+
+# Données
+data/raw/*.csv
+data/processed/*.csv
+*.db
+*.sqlite
+
+# Modèles ML
+models/*.pkl
+models/*.h5
+*.joblib
+
+# MLflow
+mlruns/
+
+# DVC
+.dvc/cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment
+.env
