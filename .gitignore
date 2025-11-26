@@ -3,33 +3,57 @@ venv/
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 .Python
 *.so
+*.egg
 *.egg-info/
+dist/
+build/
 
-# Données
+# Data (managed by DVC)
 data/raw/*.csv
 data/processed/*.csv
 *.db
 *.sqlite
 
-# Modèles ML
+# Models (managed by DVC)
 models/*.pkl
 models/*.h5
+models/*.pt
 *.joblib
 
 # MLflow
 mlruns/
+mlartifacts/
 
 # DVC
 .dvc/cache/
+.dvc/tmp/
+/dvc_storage/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
 
 # IDE
 .vscode/
 .idea/
-
-# Logs
-*.log
+*.swp
+*.swo
 
 # Environment
 .env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+temp_*
