@@ -1,5 +1,5 @@
 outs:
-- md5: 70c491a39d1561d238fb9e995c4b90bc
-  size: 258443
+- md5: 198bf0d891b507991ecb858f48b0c122
+  size: 260563
   hash: md5
   path: suppliers_data.csv
