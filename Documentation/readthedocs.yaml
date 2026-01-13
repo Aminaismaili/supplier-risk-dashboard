@@ -8,16 +8,13 @@ build:
 
 sphinx:
   builder: html
-  configuration: docs/source/conf.py
+  configuration: documentation/conf.py
 
 formats:
   - pdf
 
 python:
   install:
-    - requirements: docs/requirements.txt
+    - requirements: documentation/requirements.txt
 EOF
-python:
-  install:
-    - requirements: requirements.txt
 
