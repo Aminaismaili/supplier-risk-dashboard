@@ -1,0 +1,2 @@
+Best Model: random_forest
+Metrics: {'accuracy': 1.0, 'f1_score': 1.0, 'cv_mean': np.float64(1.0), 'cv_std': np.float64(0.0), 'model': RandomForestClassifier(max_depth=10, random_state=42)}
