@@ -1,0 +1,37 @@
+# Supplier Risk Prediction
+
+Welcome to the documentation repository for Supplier_risk_prediction tool. 
+
+## Getting Started with Documentation Development
+
+If you're interested in contributing to the documentation, follow these steps to set up your development environment:
+
+### Prerequisites
+
+Make sure you have Python installed on your system.
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/MarwaChouacha/panne/Supplier_risk_prediction.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Supplier_risk_prediction
+   ```
+
+3. Install the required dependencies using pip:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+Now you're ready to start working on the documentation!
+
+## Accessing the Documentation Online
+
+The documentation is hosted on ReadTheDocs. You can access it online by following this [link](https://tableau_de_bord_industriel.readthedocs.io/fr/latest/).
